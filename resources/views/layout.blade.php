@@ -20,6 +20,8 @@
 
 <script>
 
+    // Animation of 10+ Projects
+
 $(document).ready(function() {
     let stopValue = 10;
     let counterElement = $('<div class="project  mx-auto" id="projectCounter"></div>');
@@ -28,6 +30,19 @@ $(document).ready(function() {
     for (let i = 1; i <= stopValue; i++) {
         setTimeout(function() {
             counterElement.html(`<p>${i}+</p>`); // Update content within the single element
+            counterElement.fadeIn(1000); // Animate the single element
+        }, (i - 1) * 500);
+    }
+});
+
+$(document).ready(function() {
+    let stopValue = 6
+    let counterElement = $('<div class="experience  mx-auto" id="projectCounter"></div>');
+    $('.experience').append(counterElement); // Add the single element initially
+
+    for (let i = 1; i <= stopValue; i++) {
+        setTimeout(function() {
+            counterElement.html(`<p>${i}+ Months</p>`); // Update content within the single element
             counterElement.fadeIn(1000); // Animate the single element
         }, (i - 1) * 500);
     }
