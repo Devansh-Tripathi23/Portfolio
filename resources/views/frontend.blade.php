@@ -53,12 +53,12 @@
 
             <div class="icons">
                 <div class="icon d-flex bg-light" >
-                <i class="fa-brands fa-node icons_styling"></i>
+                <i class="fa-brands fa-node icons_styling" style="color:#6aa05c;"></i>
                 <h2 class="icon_heading">Node Js</h2>
                 </div>
            
                 <div class="icon d-flex bg-light">
-                <i class="fa-brands fa-php icons_styling"></i>
+                <i class="fa-brands fa-php icons_styling" style="color:#7377ad"></i>
                 <h2 class="icon_heading">Php</h2>
                 </div>
             
@@ -66,19 +66,40 @@
 
             <div class="icons">
                 <div class="icon d-flex bg-light" >
-                <i class="fa-brands fa-laravel icons_styling"></i>
+                <i class="fa-brands fa-laravel icons_styling" style="color:orangered;"></i>
                 <h2 class="icon_heading">Laravel</h2>
                 </div>
            
                 <div class="icon d-flex bg-light">
-                <i class="fa-brands fa-sass icons_styling"></i>
+                <i class="fa-brands fa-sass icons_styling" style="color:#c76494;"></i>
                 <h2 class="icon_heading">Sass</h2>
                 </div>
             
             </div>
         </div>
 
-        <div class="col-md-6">2</div>
+        <div class="col-md-6">
+            <div class="shadow-lg my-5 p-5">
+            <h1 style="text-align:center;">ADDITIONAL KNOWLEDGE</h1> 
+            <ul class="knowledge_list p-5">
+                <li><strong><h3>* KNOWLEDGE OF WORDPRESS</h3></strong></li>
+                <li><strong><h3>* KNOWLEDGE OF TAILWIND CSS</h3></strong></li>
+                <li><strong><h3>* KNOWLEDGE OF SOLIDIY</h3></strong></li>
+                <li><strong><h3>* KNOWLEDGE OF BLOCKCHAIN</h3></strong></li>
+                <li><strong><h3>* KNOWLEDGE OF LINUX COMMANDS</h3></strong></li>
+            </ul>
+
+            <h1 style="text-align:center;">CERTIFICATES</h1> 
+            <ul class="p-5">
+                <li><strong><h3>REACT JS BY SOLIATRE INFOSYS</h3></strong></li>
+            </ul>
+
+
+            <h1 style="text-align:center;">PROJECTS On Github </h1> 
+            <div class="projects p-2"></div>
+            </div>
+            
+        </div>
 </div>
 </div>
 
